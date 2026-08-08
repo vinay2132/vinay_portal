@@ -12,7 +12,7 @@ const grid = document.getElementById("project-grid");
 
 function renderProjects(filter) {
   grid.innerHTML = "";
-  PROJECTS.filter(p => filter === "all" || p.category === filter).forEach(p => {
+  PROJECTS.filter(p => p.category === filter).forEach(p => {
     const details = document.createElement("details");
     details.className = "project-card";
     details.dataset.category = p.category;
@@ -39,7 +39,7 @@ function renderProjects(filter) {
   });
 }
 
-renderProjects("all");
+renderProjects("ai-ml");
 
 document.querySelectorAll(".filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
