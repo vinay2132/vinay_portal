@@ -85,28 +85,6 @@ const PROJECTS = [
     repo: "Deep-Learning-Approach-for-Gender-and-Age-Prediction-Using-CNN"
   },
   {
-    title: "Deep-Learnig-Class-Work", category: "ai-ml",
-    tagline: "Neural nets and backprop built from scratch",
-    arch: "Built a modular testing sandbox containing custom implementations of deep neural network architectures, backward propagation algorithms, and custom optimization scripts.",
-    modules: [
-      ["Neural Layer From Scratch", "Coded basic forward and backward propagation routines, weight activation matrices, and cost gradient calculations."],
-      ["Hyperparameter Calibration Lab", "Developed testing suites to examine cross-entropy loss variations, evaluate learning rate drops, and monitor optimizer convergence paths."]
-    ],
-    stack: ["Python", "Jupyter Notebooks", "Deep Learning Core Math", "NumPy"],
-    repo: "Deep-Learnig-Class-Work"
-  },
-  {
-    title: "sample-data-science-codes", category: "ai-ml",
-    tagline: "Reusable EDA & data-cleaning toolbox",
-    arch: "Created a centralized analytics toolbox packed with utility scripts for statistical calculations, automated feature scaling, and rapid data exploration routines.",
-    modules: [
-      ["Automated EDA Engine", "Wrote reusable scripts to instantly generate structural information, distribution curves, and outlier tracking maps across new datasets."],
-      ["Data Ingestion Cleaners", "Programmed modular transformation logic to execute string encoding, handle structural array transformations, and fix column anomalies."]
-    ],
-    stack: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
-    repo: "sample-data-science-codes-in-github-"
-  },
-  {
     title: "Stock-Prediction-Analysis", category: "ai-ml",
     tagline: "Time-series forecasting for financial data",
     arch: "Developed a quantitative time-series forecasting model designed to ingest financial histories, run rolling assessments, and output future price trajectories.",
@@ -235,17 +213,6 @@ const PROJECTS = [
     repo: "Android_NotesAppWithFirebase"
   },
   {
-    title: "Notes_app_android", category: "fullstack",
-    tagline: "Lightweight native notes app on SQLite",
-    arch: "Built a native Android productivity utility tailored for low-latency localized text file lifecycles, memory caching, and light resource consumption profiles.",
-    modules: [
-      ["Local SQLite CRUD Engine", "Coded local storage access layers to handle transactional creation, updates, and deletion of custom user notes."],
-      ["Responsive UI Adapter Layouts", "Designed clean view holders and layouts that dynamically scale and organize dashboard views based on device dimensions."]
-    ],
-    stack: ["Android Studio", "Java/Kotlin", "SQLite", "Android UI Component Kits"],
-    repo: "Notes_app_android"
-  },
-  {
     title: "E-Portal for Marketing", category: "fullstack",
     tagline: "Multi-tenant marketing portal with lead routing",
     arch: "Built a multi-tenant corporate commercial portal configured to manage expansive digital catalogs, process incoming traffic, and track lead conversion lines.",
@@ -255,17 +222,6 @@ const PROJECTS = [
     ],
     stack: ["Web Enterprise Frameworks", "Database Systems", "E-Commerce Routing"],
     repo: "DEVELOPMENT-OF-E-PORTAL-FOR-MARKETING"
-  },
-  {
-    title: "Full-Stack Developer Coding Test", category: "fullstack",
-    tagline: "REST API baseline with strict contracts & seeding",
-    arch: "Built a robust technical baseline environment showcasing architectural separation of concerns, strict API contract definitions, and automated error handling models.",
-    modules: [
-      ["Strict REST API Contract", "Programmed optimized route catchers that filter malformed requests, enforce type checking, and return predictable, clean JSON response structures."],
-      ["Database Seeding & Migration Module", "Configured automated schema creation scripts and testing datasets to spin up clean development sandboxes seamlessly."]
-    ],
-    stack: ["Full-Stack Back-End/Front-End", "Relational Databases", "Automated Assertion Tests"],
-    repo: "Full-Stack-Developer-Coding-Test"
   },
   {
     title: "ramp-fe-challenge-solved", category: "fullstack",
@@ -382,48 +338,6 @@ const PROJECTS = [
     repo: "my_portfolio"
   },
   {
-    title: "secound_portfolio", category: "systems",
-    tagline: "Experimental portfolio with theme switching",
-    arch: "Developed an alternative personal brand web space focusing on modern asynchronous animation libraries, design patterns, and experimental UI configurations.",
-    modules: [
-      ["Advanced Theme Switcher", "Programmed atomic style tokens and context controllers enabling immediate shifts between user theme selections without presentation stutter."],
-      ["Lazy-Loaded Asset Pipeline", "Configured async visual element staging ensuring heavy project media blocks load down-stream, protecting initial site load times."]
-    ],
-    stack: ["Next-Gen CSS", "Advanced UI Design Engines", "JavaScript Component Patterns"],
-    repo: "secound_portfolio"
-  },
-  {
-    title: "vinay2132", category: "systems",
-    tagline: "GitHub profile README with live badges",
-    arch: "Created a specialized developer identity repo utilizing markdown template automation and workflow trackers to present technical summaries to profile visitors.",
-    modules: [
-      ["Profile Metric Component", "Structured clean markdown layouts using asset badges, system contribution indicators, and live platform analytics widgets."]
-    ],
-    stack: ["GitHub Markdown Layout", "External Badge APIs", "Automated Profile Rendering"],
-    repo: "vinay2132"
-  },
-  {
-    title: "My-Python-Sample-Codes", category: "systems",
-    tagline: "Data structures & automation scripts archive",
-    arch: "Built a modular script archive filled with algorithmic solutions, system level automation code, and implementation designs for classic computing data structures.",
-    modules: [
-      ["Data Structure Implementation Core", "Programmed custom classes for classic data configurations (linked nodes, structural stacks, tree layouts, lookup tables) from scratch."],
-      ["System Automater Toolbox", "Wrote script utilities executing batch name alterations, automated folder cleaning, and quick JSON format validations."]
-    ],
-    stack: ["Python", "Core Algorithm Architecture", "System OS Integration Scripts"],
-    repo: "My-Python-Sample-Codes"
-  },
-  {
-    title: "first-contributions", category: "systems",
-    tagline: "Git/GitHub workflow practice repo",
-    arch: "Maintained an infrastructure baseline repository to practice version control management, upstream integration, and branch isolation strategies within shared development spaces.",
-    modules: [
-      ["Branch Merge Engine", "Configured mock pull requests to practice conflict resolution protocols, code staging tactics, and clean history rebase steps."]
-    ],
-    stack: ["Git Version Control", "Remote Repository Workflow Practices"],
-    repo: "first-contributions"
-  },
-  {
     title: "contact", category: "systems",
     tagline: "Microservice for secure contact-form ingestion",
     arch: "Engineered a decoupled backend microservice created to securely ingest contact entries, parse form variables, and handle alert distribution paths.",
@@ -433,16 +347,6 @@ const PROJECTS = [
     ],
     stack: ["Lightweight Server Frameworks", "API Routing Architecture", "Input Cleansing Core"],
     repo: "contact"
-  },
-  {
-    title: "demo", category: "systems",
-    tagline: "Sandbox for deployment & package testing",
-    arch: "Created an isolated deployment testing sandbox maintained to run health checks on new packages, verify framework routing rules, and execute safe build experiments.",
-    modules: [
-      ["Package Collision Tester", "Configured testing environments to monitor execution behaviors and detect library version conflicts before pushing features to production branches."]
-    ],
-    stack: ["Sandbox Deployment Frameworks", "Micro-Routing Verifiers"],
-    repo: "demo"
   },
   {
     title: "servers", category: "systems",
@@ -465,16 +369,5 @@ const PROJECTS = [
     ],
     stack: ["Go or Java/Python", "Event Loop Architectures", "Thread Pool Customization"],
     repo: "AetherFlow"
-  },
-  {
-    title: "MVC", category: "systems",
-    tagline: "MVC pattern implemented from scratch",
-    arch: "A clean-room architectural implementation of the Model-View-Controller design pattern engineered to isolate routing rules, data contracts, and client view presentation logic.",
-    modules: [
-      ["Custom Routing Engine", "Programmed a foundational URL routing parser that matches inbound HTTP verbs and text endpoints to discrete controller execution methods from scratch."],
-      ["Data Binding Engine", "Created data transformation controllers to bind database queries directly to presentation layouts while protecting against raw script exposure."]
-    ],
-    stack: ["Java, C#, or PHP", "Custom OOP Architecture", "HTTP Request/Response Lifecycle"],
-    repo: "MVC"
   }
 ];

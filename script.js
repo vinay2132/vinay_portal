@@ -32,7 +32,7 @@ function renderProjects(filter) {
         <p>${p.arch}</p>
         <ul>${modulesHtml}</ul>
         <div class="tech-tags">${stackHtml}</div>
-        <a href="https://github.com/vinay2132/${p.repo}" target="_blank" rel="noopener">View on GitHub →</a>
+        <a class="btn-code" href="https://github.com/vinay2132/${p.repo}" target="_blank" rel="noopener">Code</a>
       </div>
     `;
     grid.appendChild(details);
