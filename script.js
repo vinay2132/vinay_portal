@@ -39,7 +39,7 @@ function renderProjects(filter) {
   });
 }
 
-renderProjects("ai-ml");
+renderProjects(document.querySelector(".filter-btn.active").dataset.filter);
 
 document.querySelectorAll(".filter-btn").forEach(btn => {
   btn.addEventListener("click", () => {
