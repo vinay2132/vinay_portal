@@ -10,11 +10,17 @@ const CATEGORY_LABEL = {
 
 const grid = document.getElementById("project-grid");
 
+const revealObserver = new IntersectionObserver(
+  entries => entries.forEach(e => e.isIntersecting && e.target.classList.add("is-visible")),
+  { threshold: 0.1 }
+);
+document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+
 function renderProjects(filter) {
   grid.innerHTML = "";
   PROJECTS.filter(p => p.category === filter).forEach(p => {
     const details = document.createElement("details");
-    details.className = "project-card";
+    details.className = "project-card reveal";
     details.dataset.category = p.category;
 
     const modulesHtml = p.modules
@@ -36,6 +42,7 @@ function renderProjects(filter) {
       </div>
     `;
     grid.appendChild(details);
+    revealObserver.observe(details);
   });
 }
 
